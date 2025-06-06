@@ -1,18 +1,110 @@
 # Background and Getting Started 
-  Welcome! The primary goal of this site is to communicate progress on a summer-long project whose purpose is twofold: build professional skills and explore my current interests and goals. Read on for weekly updates to this end to see this project's genesis to completion. 
-# Weekly Post 
-
-  First, I spent some time familiarizing myself with the course structure and expectations which included watching the course origins video and learning about past projects. I was grateful to see past projects were indeed wide-ranging and seemed to be tailored toward student interest. I’ve never worked without at least some constraints, so I immediately found myself nearly lost in potential projects I might find interesting. I decided to set some parameters at this point to narrow the decision making process. In rank order, here is the criteria I came up with:
-
-1. **Interesting** – Making something tailored to my interests for credit is not only a unique opportunity but should make progress feel less like homework and more like genuine exploration.
-2. **Feasible** – I won’t be solving cold fusion. Whatever I decide to make will need to be executable within (roughly) 40 hours of dedicated work. I should have a fair degree of confidence, based on prior projects and academic work, that I can reach a minimum viable product.
-3. **Challenging** – If I expect to learn something, I should also expect to run into things I haven’t seen before. This clashes with (2), but I think I can find a balance.
-4. **Extendable** – A project that can naturally support additions later on removes the pressure of doing everything this summer. A project that is inherently limited in scope might stifle momentum if I want to explore different aspects of a language, framework or technology.
-
-  I’ve already made a good deal of progress this week with the above criteria. The specifics of eliminating potential projects to land on just a few candidates included a fair amount of research and unexciting details of which I’ll spare the reader. I had no problem thinking of interesting projects, but balancing the next three criteria was much harder.
-
-  I decided that I want to learn more about cloud-based services, specifically AWS. I have some experience with React, but my last foray did not instill confidence. Lastly, I wanted to integrate a physics engine for simple 2D games, and after some searching found Matter.js to be a prime candidate. A natural project, then, would be a game or suite of games that leveraged Matter.js to render game pieces while using popular AWS services like Cognito, S3, and Lambda for authentication, storage, and game logic respectively.
+  Welcome! The primary goal of this site is to communicate progress on a summer-long project whose purpose is twofold: build professional skills and explore my current interests and goals. Read on for weekly updates to this end to see this project's genesis to completion. The first post will serve to outline the scope of the project. Following posts will describe weekly progress, lessons learned, and insights into the build process. 
   
-  My impediments right now include a lack of familiarity with chosen technologies, frameworks, and libraries. I am stepping through React tutorials, familiarizing myself with the AWS console, and tinkering with some of the demo code for Matter.js. Also, I need to decide which games to pursue. Their logic should be straightforward and unambiguous. It’s not that these games are secondary, but I need to focus on core functionality rather than a brand new game whose logic is undefined. I’ve found defining that logic to be hugely consequential and nonintuitive in the past and I would like to avoid getting bogged down there. I am thinking of making clones of popular 2D mobile games or boardgames right now.
-  
-  The initial list of potential projects was quite long and I began to explore each one without method or reason. It was a frantic, unorganized combination of google searches, notebook sketches, and other references. It had been several hours before I stopped myself to realize this was far from efficient. I have a tendency to do this, look at the nearest clock, and say “wow, I did not achieve nearly as much as I’d hoped today.” So, in terms of process I’m aiming to take a wider view of the problem and approach it methodically.
+# Project Proposal 
+Project Proposal – Matter.js Games with AWS Integration
+Vision Statement
+This project’s scope includes building a web application that leverages React for the frontend, AWS for backend services written in Java (Cognito for user authentication and S3 for storage/retrieval), and Matter.js for rendering simple physics-based games including Pong, Flappy Bird, and Pool.
+
+The application will allow users to:
+
+Log in
+
+Play games
+
+Track scores on a personal dashboard
+
+All of these technologies are new to the author, so in addition to researching and learning new languages and frameworks, this will enhance professional skills in:
+
+Full-stack web development
+
+Game physics implementation
+
+Cloud architecture
+
+User experience design
+
+Software lifecycle management
+
+Motivation
+By providing simple, interactive games with accessible, clearly defined logic and results displayed on a centralized dashboard, this project aims to provide both entertainment and learning.
+
+Matter.js allows fine-tuning of physical constants.
+
+Users can toggle these settings to understand how physical laws describe reality.
+
+A friendly UI and visual feedback aim to bridge the gap between gameplay and learning physics.
+
+From a development perspective, it serves as a proof of learning in:
+
+Cloud computing
+
+Web development
+
+Game logic
+
+Systems integration
+
+Risks to Completion
+Several risks could impact the project, ranked by priority:
+
+Scope Creep – Expanding features too early can lead to delays.
+
+Integration Complexity – Connecting the frontend to AWS may present challenges.
+
+Performance Limitations – Rendering issues may occur with Matter.js.
+
+Authentication Errors – Misconfigured AWS Cognito can break access.
+
+Time Management – Balancing work between game logic, backend, and UI can be difficult.
+
+Mitigation Strategies
+Risk	Mitigation Strategy
+Scope Creep	Limit games to the three proposed; focus on minimum viable product (MVP).
+Integration Complexity	Review AWS documentation and test each component in isolation before integrating.
+Performance Limitations	Simplify UI elements and focus on core physics functionality.
+Authentication Errors	Follow AWS best practices; test auth flows early.
+Time Management	Use a weekly roadmap with clear milestones. Prioritize MVP consistently.
+
+Evaluation Criteria
+Category	Criteria
+Functionality	Users can log in, play all three games, and view a score dashboard.
+Integration	AWS services (Cognito, S3, API) work seamlessly with React and Java backend.
+Code Quality	Modular, readable code with testing and edge case handling.
+UI/UX Design	Clean, intuitive, and visually cohesive interface.
+Bonus	Allow users to toggle physical constants and save preferences.
+
+Project Schedule
+The schedule allows one extra buffer week if needed.
+
+Week	Dates	Focus	Milestones / Tasks
+Week 1	June 6 – June 13	Project Setup & Planning	- Finalize game rules and app structure
+- Initialize React app with routing
+- Set up Java backend structure
+- Test Matter.js integration
+Week 2	June 14 – June 20	Game Prototypes	- Build basic Pong, Flappy Bird, Pool logic
+- Set up score state in React
+- Render game scenes with Matter.js
+Week 3	June 21 – June 27	AWS Cognito Auth Integration	- Set up AWS Cognito user pool
+- Implement login/signup/logout in React
+- Protect game/dashboard routes
+Week 4	June 28 – July 4	Backend API & Score Storage	- Create REST API endpoints (Java)
+- Set up DynamoDB or RDS
+- Deploy backend to AWS
+- Token-based API access
+Week 5	July 5 – July 11	Score Sync & Dashboard	- Send score to backend after each game
+- Build dashboard with score history
+- Add basic analytics
+Week 6	July 12 – July 18	Game Logic & Reset Flows	- Polish physics and collisions
+- Add start/reset logic to games
+- Refactor shared game logic
+Week 7	July 19 – July 25	UI/UX Styling	- Improve layout using Tailwind or similar
+- Style dashboard and game pages
+- Add responsive design
+Week 8	July 26 – August 1	Testing & Optimization	- Write unit/integration tests
+- Optimize Matter.js rendering
+- Handle auth and network errors
+Week 9	August 2 – August 8	Final Integration & Deployment	- Deploy frontend (Amplify/S3/Netlify)
+- Final bug fixes
+- Document app
+- Run demos/user tests
