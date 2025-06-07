@@ -1,33 +1,46 @@
+[Home](./index.md) | [Project Proposal](./projectProposal.md)
+
+
 # Background and Getting Started 
-  Welcome! The primary goal of this site is to communicate progress on a summer-long project whose purpose is twofold: build professional skills and explore my current interests and goals. Read on for weekly updates to this end to see this project's genesis to completion. The first post will serve to outline the scope of the project. Following posts will describe weekly progress, lessons learned, and insights into the build process. 
-  
-# Project Proposal 
-Project Proposal – Matter.js Games with AWS Integration
-__Vision Statement__
-This project’s scope includes building a web application that leverages React for the frontend, AWS for backend services written in Java (Cognito for user authentication and S3 for storage/retrieval), and Matter.js for rendering simple physics-based games to include Pong, Flappy Bird, and Pool. The application will allow users to log in, play games, and track scores on a personal dashboard. All of these technologies are new to the author, so in addition to researching and learning new languages and frameworks, this will enhance professional skills in full-stack web development, game physics implementation, cloud architecture, user experience design and software lifecycle management.
+  Welcome! The primary goal of this site is to communicate progress on a summer-long project whose purpose is twofold: build professional skills and explore my current interests and goals. Read on for weekly updates to this end to see this project's genesis to completion.
 
-__Motivation__
-By providing a simple, interactive games with accessible, clearly defined logic with results displayed on a centralized dashboard, this project should provide entertainment to the user. Additionally, Matter.js can be fine-tuned to different physical constants. Allowing the user to toggle settings should provide a means to build a sense of how these constants and other physical laws describe reality. In short, it aims to bridge a gap between gameplay and learning physics. It will aim to do so through a friendly UI and clear visual feedback. Lastly, cloud integration will serve to make the experience one that user’s can return to. For the author, it will serve as a project that demonstrates a willingness to learn new skills in cloud computing, web development, game logic and systems integration. 
 
-__Risks to Completion__
-There are several risks to this project. In rank order, these include scope creep, integration complexity, performance limitations, authentication errors, and time management. Expanding features early could result in significant delays if there are unexpected delays or unforeseen complexities in execution. There are several technologies that need to be integrated and doing so may not be straightforward or seamless. Specifically, connecting the frontend to AWS services might include time-consuming issues. Related are authentication errors. The choice to use AWS for authentication means that configuration is key and small errors could mean complete failure to authenticate properly. Lastly, balancing workloads between the frontend, backend, and game logic implementation will take real planning efforts and dedicated workloads. 
+## Post 1 (05.31.2025)
+## What did you do last week?
 
-__Mitigation Strategies__
-Scope creep can be mitigated by limiting the type and number of games offered on the platform. The games listed above have well-defined logic and physics associated with them. While it may be tempting to add more, the minimum-viable product will include these three. Integration complexity can be lessened with proper review of relevant AWS documentation, free online trainings, and testing each piece in isolation before combining them. Matter.js might see issues with rendering objects in game leading to performance issues. Writing games with very simple UI characteristics that still capture core functionality can serve to mitigate this risk. Lastly, time management can be mitigated through a weekly development roadmap with real milestones included. Throughout, the minimum viable product will be prioritized. See below for a schedule.
+First, I spent some time familiarizing myself with the course structure and expectations which included watching the course origins video and learning about past projects. I was grateful to see past projects were indeed wide-ranging and seemed to be tailored toward student interest. I’ve never worked without at least some constraints, so I immediately found myself nearly lost in potential projects I might find interesting. I decided to set some parameters at this point to narrow the decision-making process. In rank order, here is the criteria I came up with:
 
-__Evaluation Criteria__
-Functionality, integration, code quality, and UI/UX design can serve as evaluation criteria. If users can log in, play all three games, and see their dashboard with updated scores, the project can be said to be functional. A bonus or stretch feature will be to toggle physical constants or characteristics, save those, and run the games in different modes. If React and AWS technologies work together to create this functionality, it will be a success. Code quality will be a part of this effort as well. Edge-cases should be well-defined and tested. Lastly, a simple but intuitive UI/UX should showcase these technologies working together well. 
+1. **Interesting** – Making something tailored to my interests for credit is not only a unique opportunity but should make progress feel less like homework and more like genuine exploration.
+2. **Feasible** – I won’t be solving cold fusion. Whatever I decide to make will need to be executable within (roughly) 40 hours of dedicated work. I should have a fair degree of confidence, based on prior projects and academic work, that I can reach a minimum viable product.
+3. **Challenging** – If I expect to learn something, I should also expect to run into things I haven’t seen before. This clashes with (2), but I think I can find a balance.
+4. **Extendable** – A project that can naturally support additions later on removes the pressure of doing everything this summer. A project that is inherently limited in scope might stifle momentum if I want to explore different aspects of a language, framework, or technology.
 
-The schedule allows one extra buffer week if needed.
+---
 
-| Week   | Dates               | Focus                         | Milestones / Tasks                                                                 |
-|--------|---------------------|-------------------------------|-------------------------------------------------------------------------------------|
-| Week 1 | June 6 – June 13    | Project Setup & Planning      | - Finalize game rules and app structure<br>- Initialize React app with routing<br>- Set up Java backend structure<br>- Test Matter.js integration |
-| Week 2 | June 14 – June 20   | Game Prototypes               | - Build basic Pong, Flappy Bird, Pool logic<br>- Set up score state in React<br>- Render game scenes with Matter.js |
-| Week 3 | June 21 – June 27   | AWS Cognito Auth Integration  | - Set up AWS Cognito user pool<br>- Implement login/signup/logout in React<br>- Protect game/dashboard routes |
-| Week 4 | June 28 – July 4    | Backend API & Score Storage   | - Create REST API endpoints (Java)<br>- Set up DynamoDB or RDS<br>- Deploy backend to AWS<br>- Token-based API access |
-| Week 5 | July 5 – July 11    | Score Sync & Dashboard        | - Send score to backend after each game<br>- Build dashboard with score history<br>- Add basic analytics |
-| Week 6 | July 12 – July 18   | Game Logic & Reset Flows      | - Polish physics and collisions<br>- Add start/reset logic to games<br>- Refactor shared game logic |
-| Week 7 | July 19 – July 25   | UI/UX Styling                 | - Improve layout using Tailwind or similar<br>- Style dashboard and game pages<br>- Add responsive design |
-| Week 8 | July 26 – August 1  | Testing & Optimization        | - Write unit/integration tests<br>- Optimize Matter.js rendering<br>- Handle auth and network errors |
-| Week 9 | August 2 – August 8 | Final Integration & Deployment| - Deploy frontend (Amplify/S3/Netlify)<br>- Final bug fixes<br>- Document app<br>- Run demos/user tests |
+## What do you plan to do this week?
+
+I’ve already made a good deal of progress this week with the above criteria. The specifics of eliminating potential projects to land on just a few candidates included a fair amount of research and unexciting details of which I’ll spare the reader. I had no problem thinking of interesting projects, but balancing the next three criteria was much harder.
+
+I decided that I want to learn more about cloud-based services, specifically AWS. I have some experience with React, but my last foray did not instill confidence. Lastly, I wanted to integrate a physics engine for simple 2D games, and after some searching found Matter.js to be a prime candidate. A natural project, then, would be a game or suite of games that leveraged Matter.js to render game pieces while using popular AWS services like Cognito, S3, and Lambda for authentication, storage, and game logic respectively. I plan to learn more about these, decide which games to implement, and build a schedule that captures the project scope.
+
+---
+
+## Are there any impediments in your way?
+
+My impediments right now include a lack of familiarity with chosen technologies, frameworks, and libraries. I am stepping through React tutorials, familiarizing myself with the AWS console, and tinkering with some of the demo code for Matter.js. Also, I need to decide which games to pursue. Their logic should be straightforward and unambiguous. It’s not that these games are secondary, but I need to focus on core functionality rather than a brand new game whose logic is undefined. I’ve found defining that logic to be hugely consequential and nonintuitive in the past and I would like to avoid getting bogged down there. I am thinking of making clones of popular 2D mobile games or boardgames right now.
+
+---
+
+## Reflection on the process you used last week, how can you make the process work better?
+
+The initial list of potential projects was quite long and I began to explore each one without method or reason. It was a frantic, unorganized combination of Google searches, notebook sketches, and other references. It had been several hours before I stopped myself to realize this was far from efficient. I have a tendency to do this, look at the nearest clock, and say “wow, I did not achieve nearly as much as I’d hoped today.” So, in terms of process I’m aiming to take a wider view of the problem and approach it methodically.
+
+## Post 2 (06.05.2025)
+
+Last week included refining my project scope to better define what exactly the minimum viable product will look like. This included some references to what I know about React and chosen AWS technologies to determine if I can confidently implement features efficiently. After, and as a part of the project proposal, I built a schedule.
+
+This next week, I plan to move forward with that schedule by finalizing game logic and starting the React frontend and some basic tests using Matter.js. Also, I'd like to refine my project website to include some more background into the project's motivation.
+
+I was pretty happy with my process this week. Splitting time between making a schedule, writing the project proposal, and reading references to not only learn about these new technologies but write a schedule I am confident with felt productive.
+
+I don't have any impediments right now, although the volume of material to get through and learn feels daunting at the moment.
