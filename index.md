@@ -1,4 +1,4 @@
-[Home](./index.md) | [Project Proposal](./projectProposal.md)
+[Project Proposal](./projectProposal.md)
 
 
 # Background and Getting Started 
