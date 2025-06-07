@@ -1,5 +1,6 @@
+[Home](./index.md) | 
 # Project Proposal 
-Project Proposal – Matter.js Games with AWS Integration
+__Project Proposal – Matter.js Games with AWS Integration__
 
 __Vision Statement__
 This project’s scope includes building a web application that leverages React for the frontend, AWS for backend services written in Java (Cognito for user authentication and S3 for storage/retrieval), and Matter.js for rendering simple physics-based games to include Pong, Flappy Bird, and Pool. The application will allow users to log in, play games, and track scores on a personal dashboard. All of these technologies are new to the author, so in addition to researching and learning new languages and frameworks, this will enhance professional skills in full-stack web development, game physics implementation, cloud architecture, user experience design and software lifecycle management.
