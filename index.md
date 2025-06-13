@@ -17,11 +17,11 @@ I’ve already made a good deal of progress this week with the above criteria. T
 
 I decided that I want to learn more about cloud-based services, specifically AWS. I have some experience with React, but my last foray did not instill confidence. Lastly, I wanted to integrate a physics engine for simple 2D games, and after some searching found Matter.js to be a prime candidate. A natural project, then, would be a game or suite of games that leveraged Matter.js to render game pieces while using popular AWS services like Cognito, S3, and Lambda for authentication, storage, and game logic respectively. I plan to learn more about these, decide which games to implement, and build a schedule that captures the project scope
 
-## Are there any impediments in your way?
+__Are there any impediments in your way__
 
 My impediments right now include a lack of familiarity with chosen technologies, frameworks, and libraries. I am stepping through React tutorials, familiarizing myself with the AWS console, and tinkering with some of the demo code for Matter.js. Also, I need to decide which games to pursue. Their logic should be straightforward and unambiguous. It’s not that these games are secondary, but I need to focus on core functionality rather than a brand new game whose logic is undefined. I’ve found defining that logic to be hugely consequential and nonintuitive in the past and I would like to avoid getting bogged down there. I am thinking of making clones of popular 2D mobile games or boardgames right now.
 
-## Reflection on the process you used last week, how can you make the process work better?
+__Reflection on the process you used last week, how can you make the process work better__
 
 The initial list of potential projects was quite long and I began to explore each one without method or reason. It was a frantic, unorganized combination of Google searches, notebook sketches, and other references. It had been several hours before I stopped myself to realize this was far from efficient. I have a tendency to do this, look at the nearest clock, and say “wow, I did not achieve nearly as much as I’d hoped today.” So, in terms of process I’m aiming to take a wider view of the problem and approach it methodically.
 
