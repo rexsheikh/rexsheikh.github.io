@@ -35,4 +35,11 @@ I was pretty happy with my process this week. Splitting time between making a sc
 
 I don't have any impediments right now, although the volume of material to get through and learn feels daunting at the moment.
 
+## Post 3 (06.12.2025)
+
+Last weeek I started to build an understanding of Matter.js to implement some simple features while creating a rough scaffolding of the site. I focused on getting some early wins with a simple navigation bar in React and a simple penduluum demo to get a feel for how Matter.js renders objects to apply physical constants. The most difficult piece, though, was setting up React and learning how to create and consume components. The syntax is not straightforward to me and there are more curly braces than I care for. Still, it became very apparent to me why React is so popular. The investment upfront to build a good component does indeed make them highly reusable and easily configurable. I spent this week refining my understanding of React by completing some tutorials, notably a tic-tac-toe game that shows how to use state. I also did a great deal of research in AWS integration. I expect some difficulties integrating the frontend and backend and I've found time spent with familiarization saves time in implementation in these cases. 
+
+My process was good this week, although I'm feeling a bit behind. Moving forward, I hope to increase the frequency between learning something and testing a simple implementation. The simple demos integrated with React proved that to me and it felt like my time was better spent there rather than reading docs and doing tutorials for a considerable amount of time. I have to remind myself that this software can break and proper version control via git offers rollbacks to safe points of progress. 
+
+I don't have any significant impediments, but like I mentioned before, accelerating the learning to testing cycle frequency would more efficiently chip away at the volume of material I have to move through. 
 
