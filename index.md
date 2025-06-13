@@ -34,3 +34,5 @@ This next week, I plan to move forward with that schedule by finalizing game log
 I was pretty happy with my process this week. Splitting time between making a schedule, writing the project proposal, and reading references to not only learn about these new technologies but write a schedule I am confident with felt productive.
 
 I don't have any impediments right now, although the volume of material to get through and learn feels daunting at the moment.
+
+
