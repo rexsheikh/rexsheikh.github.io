@@ -6,10 +6,9 @@
 
 I was drawn towards math and physics in high school and later studied mechanical engineering at USMA. Any class that integrated MATLAB scripts or CAD modeling quickly became my favorites. I served in the Army afterwards and quickly saw obvious and impactful uses for programming. We had several manual input, error prone systems that were ripe for automation. Though I struggled at first, I saw how a well-designed program could deliver not only major time savings but also better outcomes overall. I was sold. I decided to study computer science after the Army to learn more about the field while building technical skills along the way. 
 
-I've found the journey thus far to be challenging but rewarding. The breadth and depth of the field can feel overwhelming but I'm grateful for the progress I've made so far. 
+I've found the journey thus far to be challenging but rewarding. The breadth and depth of the field can feel overwhelming but I'm grateful for the progress I've made so far. This site's primary goal is to demonstrate technical skills and current endeavors. Right now, I'm building a suite of physics games with React, Matter.js, and AWS services. Checkout the proposal for its full scope and posts for weekly progress throughout the summer. 
 
 # Technical Skills
-Clearly lists the programming languages, frameworks, tools, and technologies.  
 **Languages:** Python, JavaScript, C/C++, SQL, Scala, R  
 **Frameworks/Tools:** React, Jupyter, PyTorch, TensorFlow, Tableau, Power BI, Pandas  
 **Other:** HTML/CSS, 3D Printing, Machining, FE Certified
@@ -17,7 +16,7 @@ Clearly lists the programming languages, frameworks, tools, and technologies.
 # Education
 **University of Colorado Boulder**  
 Master of Science in Computer Science (In Progress), June 2024 – Present  
-Relevant Coursework: Information Visualization, Algorithms, Data Structures, OS Design, Databases
+Relevant Coursework: Algorithms, Data Structures, Computer Systems, Principles of Programming Languages
 
 **United States Military Academy at West Point**  
 Bachelor of Science in Mechanical Engineering, May 2016
