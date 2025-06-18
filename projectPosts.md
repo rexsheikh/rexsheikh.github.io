@@ -1,3 +1,4 @@
+[Home](./index.md)|[Project Proposal](./projectsPosts.md/) | [Download Resume](/rsheikh-resume.pdf/) 
 ## Post 1 (05.31.2025)
 First, I spent some time familiarizing myself with the course structure and expectations which included watching the course origins video and learning about past projects. I was grateful to see past projects were indeed wide-ranging and seemed to be tailored toward student interest. I’ve never worked without at least some constraints, so I immediately found myself nearly lost in potential projects I might find interesting. I decided to set some parameters at this point to narrow the decision-making process. In rank order, here is the criteria I came up with:
 
