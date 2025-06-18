@@ -1,4 +1,4 @@
-[Home](./index.md) | [Project Posts](./projectsPosts.md/) | [Download Resume](/rsheikh-resume.pdf/) 
+[Home](./index.md) | [Project Posts](./projectPosts.md/) | [Download Resume](/rsheikh-resume.pdf/) 
 # Project Proposal 
 __Project Proposal – Matter.js Games with AWS Integration__
 
