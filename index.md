@@ -1,4 +1,4 @@
-[Project Proposal](./projectProposal.md)
+[Project Proposal](./projectProposal.md) | [Project Posts](./projectsPosts.md) | [Download Resume](/rsheikh-resume.pdf) 
 
 
 # Background and Getting Started 
