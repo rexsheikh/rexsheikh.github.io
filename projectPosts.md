@@ -36,3 +36,12 @@ Last weeek I started to build an understanding of Matter.js to implement some si
 My process was good this week, although I'm feeling a bit behind. Moving forward, I hope to increase the frequency between learning something and testing a simple implementation. The simple demos integrated with React proved that to me and it felt like my time was better spent there rather than reading docs and doing tutorials for a considerable amount of time. I have to remind myself that this software can break and proper version control via git offers rollbacks to safe points of progress. 
 
 I don't have any significant impediments, but like I mentioned before, accelerating the learning to testing cycle frequency would more efficiently chip away at the volume of material I have to move through. 
+
+## Post 4 (06.19.2025)
+Last week I spent some time creating my personal website. I started with some research into Jekyll themes and made a simple nav bar to link to project posts, proposal, and landing page a short 'about me' section, highlights from my resume, and finally a link for a downloadable resume pdf. It was nice to see immediate results. I'm still doing a fair amount of learning before implementing in my project so having a vision and seeing it deployed was refreshing. I'd like to spend more time this weekend refining the site to add some project demo gifs and showcase some other work I have on github. Related to the project, I continud to build out components for demos. I have a good grasp of how different paramaters like elasticity and gravity affect objects. I've been pretty impressed with Matter.js overall. I'm still finding React to be less than intuitive with a great deal of time spent debugging for simple syntax errors. 
+
+My progress was not quite where I wanted it to be this week. In addition to a weekly schedule, I need to start dedicating time deliberately to project development. Further, I think I need to get to a lower level of specificity within a weekly plan. I'm spending too much time to spin up, remember what I was doing, and begin productive work. I'm still on pace but I do feel that I'm eating up some buffer time earlier than I would like this summer. This weekend I hope to catch up with some AWS integration and get at least one game (pong) fully operational. That should give me good momentum going into next week. 
+
+I don't have any significant impediments right now other than optimizing my time between work, school, and life in general. 
+
+
