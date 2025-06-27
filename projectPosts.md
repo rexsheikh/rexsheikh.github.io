@@ -44,4 +44,19 @@ My progress was not quite where I wanted it to be this week. In addition to a we
 
 I don't have any significant impediments right now other than optimizing my time between work, school, and life in general. 
 
+## Post 5 (06.26.2025)
+Last week I ran into some tricky configuration issues mostly related to launching my react app with vite. Throughout the react tutorials, I was using 'create-react-app', a simple but somewhat outdated way to begin. I was familiar with the necessary setup and saw some unexpected issues when using vite. I decided to start a new react app with the setup I was familiar with and transfer components over. I was thankful to see everything was working properly. I started the project with vite because it seemed more amenable to later AWS integration. I'm planning to tackle that issue next week with AWS accounts ready to go. 
+
+Another major change was deciding against using AWS Cognito for two reasons. First, I thought it would be more interesting to have an arcade style setup where users can play games then add their name to post their scores to see how they compare to others. It's much simpler and eliminates the need to authenticate users. Secondly, I found the workflow between AWS console and local development to a bit tedious in this case only to provide a feature that was likely far too robust for this project. I built some familiarity with the Cognito and I'm grateful for that but I just don't think it fits well with the overall project. 
+
+I did manage to add a few features to the site this week. I adapted [this example](https://brm.io/matter-js/demo/#slingshot) from matter.js to make a simple free throw game. I added a sensor for the basket and a simple counter. It's pretty clumsy right now and very difficult to score but it works. This wasn't a game I originally set out to make but adapting from the javascript in the example to react was very doable. I spend some more time reviewing the examples on matter.js's github and saw some more potential adaptations. I stil want to implement the games I set out to but felt encouraged by this approach. I should be able to add more than I originally set out to. Next, I added some simple styling and navigation. There were still some syntax errors leftover from the first build and moving over components. 
+
+Next week, I hope to add a few more games. I need to add timers and solidify scoring mechanisms. Next, I need to start integration with AWS S3. Once I have scoring mechanisms and timers in place, I can then ask a user for their name as they would like it to appear on the high scores page. 
+
+My process was much better this week. One improvement would be to isolate styling and logic efforts. I had to switch back and forth this week just to see some results but I didn't set a clear stopping point. The resulting process was a bit inefficient. I find there are some switching costs between these two efforts.
+
+
+- decided to avoid login and authentication - using AWS cognito was taking too much time, likely overkill for this project
+    - arcade style...play a game...pick a name..and record a high score
+[ ] pendulum adds...record gif via terminal and place in website
 
