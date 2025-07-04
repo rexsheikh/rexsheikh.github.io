@@ -55,8 +55,9 @@ Next week, I hope to add a few more games. I need to add timers and solidify sco
 
 My process was much better this week. One improvement would be to isolate styling and logic efforts. I had to switch back and forth this week just to see some results but I didn't set a clear stopping point. The resulting process was a bit inefficient. I find there are some switching costs between these two efforts.
 
+## Post 6 (07.03.2025)
+This week was again not as productive as I would have hoped but I did make some good progress in some key areas. I have a nearly finished free throw game. The upside is the components I built in React to make that game should be extensible to the pong game at least. I made some simple calls to an S3 bucket for proof of concept, too. 
 
-- decided to avoid login and authentication - using AWS cognito was taking too much time, likely overkill for this project
-    - arcade style...play a game...pick a name..and record a high score
-[ ] pendulum adds...record gif via terminal and place in website
+Next, I hope to tackle the pool game and get a working scoreboard so users can post high scores as they are stored in S3. Again, this is now all arcade style so there is no login or authentication via email. I'm happy I made that change not only for time constraints but because it feels way more approachable to simply start playing. I definitely gained some familiarity with AWS Cognito and the AWS Console as a whole which is good. I hope to install and start using the AWS CLI this week for more programmatic testing before making a full effort for scoreboard display. 
 
+I don't have any blockers currently and my process has been decent. I have a routine with time set aside for this project but I still feel a bit behind. I'm grateful to have chosen an interesting project as I expect to work some nights and weekends in the near future to catch up. 
