@@ -61,3 +61,12 @@ This week was again not as productive as I would have hoped but I did make some 
 Next, I hope to tackle the pool game and get a working scoreboard so users can post high scores as they are stored in S3. Again, this is now all arcade style so there is no login or authentication via email. I'm happy I made that change not only for time constraints but because it feels way more approachable to simply start playing. I definitely gained some familiarity with AWS Cognito and the AWS Console as a whole which is good. I hope to install and start using the AWS CLI this week for more programmatic testing before making a full effort for scoreboard display. 
 
 I don't have any blockers currently and my process has been decent. I have a routine with time set aside for this project but I still feel a bit behind. I'm grateful to have chosen an interesting project as I expect to work some nights and weekends in the near future to catch up. 
+
+## Post 7 (07.10.2025)
+Last week, I decided to tackle some basic UI problems I have been putting off. Since starting this project, I have only implemented the most basic form of each game and webpage. I don't think I have a great sense of what will look good and what won't, so UI involves a lot of trial and error for me. I didn't touch any functional pieces of code, though, so I didn't experience any major breaking changes.
+
+This week, I plan to finalize remaining game logic. This will allow me to focus on backend integration and more UI work (which never seems complete). From there, it will be a more of a refinement effort in tweaking parameters and display to make for good game experiences. 
+
+I currently do not have any impediments in my way. 
+
+My process was good last week and I think I will continue to draw a hard line between function and UI in the future. I sometimes find I try to do everything at once which is neither manageable or productive. It's natural for me to realize some functionality that should be integrated while working on UI or vice versa. My solution was just to keep a markdown file open to note anything to come back to it later. Some of these ideas I have on the fly require further thought, some are good, and some are bad. In any case, this approach deferred that thinking to a later time to allow me to focus on the task for this week. 
