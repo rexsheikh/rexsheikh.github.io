@@ -70,3 +70,10 @@ This week, I plan to finalize remaining game logic. This will allow me to focus 
 I currently do not have any impediments in my way. 
 
 My process was good last week and I think I will continue to draw a hard line between function and UI in the future. I sometimes find I try to do everything at once which is neither manageable or productive. It's natural for me to realize some functionality that should be integrated while working on UI or vice versa. My solution was just to keep a markdown file open to note anything to come back to it later. Some of these ideas I have on the fly require further thought, some are good, and some are bad. In any case, this approach deferred that thinking to a later time to allow me to focus on the task for this week. 
+
+## Post 8 (07.17.2025)
+Last week I spent some time to make a solid plan to finish this project in scope and in time. I've been focusing alot on implementation the last few weeks and I've changed scope once pretty significantly. I wanted to take some time to chart the next few weeks down to blocking off specific time blocks to tackle specific problems. Namely, implementing the final logic for games and integrating that into the scoring system and backend. I translated my goals into some actionable goals with pseudo code.
+
+This week, I will have to use the weekend to catch up on implementation of key react components and scoring. I don't have any impediments in my way currently but I am finding it difficult to pick the project up after putting it down for most of the week. I think charting a solid plan will help me to reduce the time to "spin up" when I approach it again. 
+
+I liked my process this week. I was pulled away consistently by work but I managed to find some time to plan strategically which I hope will help me in the long run. 

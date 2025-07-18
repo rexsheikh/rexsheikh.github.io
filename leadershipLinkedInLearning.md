@@ -1,0 +1,8 @@
+## [Leading with Intention](https://www.linkedin.com/learning/leadership-tips-tactics-and-advice/leading-with-intention-16192171)
+I accessed the above course to learn more about leading in the workplace. While I don't expect to lead early in my career, I think it's important to start thinking about these things to build good habits and understand what a good leader should be doing. This course had some good points and general strategies to create the conditions to lead a team. Some of these seemed more actionable than others, like setting up deliberate one on ones and staying ahead of any team issues that might get in the way of work. 
+
+Others were a bit harder to relate to and I think it takes a fair amount of tact and experience to handle situtations well. There was a section on empathy that was a bit vague but my main takeaway was trying to understand different persepectives. I've definitely worked for managers who empathetic and really took the time to get to know their team. Everyone was grateful for them but it's tough to say exactly how they managed it and replicating that seems inauthentic to me. I feel that it's necessary to find one's own leadership style and tactics. It's certainly true that one can set the right conditions to make an impact but after that, I think it's soft skills and genuine engagement with others. 
+
+Other memorable sections were on providing good and bad feedback. Leaving good work unnoticed can be detrimental and deferring bad feedback is never a good strategy. 
+
+Overall, I would recommend this course if only to build a better framework to understand how leaders ought to operate in a team and some strategies to make it a reality. 
