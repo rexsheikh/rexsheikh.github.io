@@ -77,3 +77,10 @@ Last week I spent some time to make a solid plan to finish this project in scope
 This week, I will have to use the weekend to catch up on implementation of key react components and scoring. I don't have any impediments in my way currently but I am finding it difficult to pick the project up after putting it down for most of the week. I think charting a solid plan will help me to reduce the time to "spin up" when I approach it again. 
 
 I liked my process this week. I was pulled away consistently by work but I managed to find some time to plan strategically which I hope will help me in the long run. 
+
+## Post 9 (7.24.2025)
+Last week I seeded some test data in an S3 bucket to ensure I was able to pull it down to populate the high score table. I was having trouble implementing the scoring for a few of the games so I began a prototype using a simple click counter in react. I hope to extend that to the scoring in-game but using the sensors in Matter.js has proven more difficult than I would expect. With the simple click-counter logic though, I hope to extend to include the sensors. I can now at least send and receive updates to the backend. 
+
+This week, I will look to finish that in-game logic and post real high scores to the table. From there, I will again revisit some UI and basic game flow. Right now, there are some mechanics that make the games too difficult or clunky. The free throw game, for example, is far too difficult because the scoring sensor is too small, the restitution parameters too high (causing any bounce to almost guarantee a no-score) and the slingshot mechanic is far too sensitive. I have a good idea how to fix most of the problems but it will require some guess and check. 
+
+My process this week was good. I chose a small subset of the project to work on and was able to execute. I think if I have a well-defined set of tasks I can approach them more readily and with better success. 
