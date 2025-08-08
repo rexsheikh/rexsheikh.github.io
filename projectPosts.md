@@ -84,3 +84,9 @@ Last week I seeded some test data in an S3 bucket to ensure I was able to pull i
 This week, I will look to finish that in-game logic and post real high scores to the table. From there, I will again revisit some UI and basic game flow. Right now, there are some mechanics that make the games too difficult or clunky. The free throw game, for example, is far too difficult because the scoring sensor is too small, the restitution parameters too high (causing any bounce to almost guarantee a no-score) and the slingshot mechanic is far too sensitive. I have a good idea how to fix most of the problems but it will require some guess and check. 
 
 My process this week was good. I chose a small subset of the project to work on and was able to execute. I think if I have a well-defined set of tasks I can approach them more readily and with better success. 
+
+## Post 10/11 (8.07.2025)
+The week before last I was reminded that sometimes life does not always comply nicely with work and school goals. I had to take a small break but I'm back in the swing of things now. 
+Last week I had to review the plan I made a few weeks ago for some actionable goals to move forward. I again separated my time between refining game parameters and then moved to some finer touches to the UI. 
+This week, and likely this weekend too, I have to play catch up to integrate each game to the backend. I have a good start on basic infrastructure connection and logic but will have to work to make sure that each game can properly update and terminate with proper scores, posts, and display. This will likely be the last big push towards a minimum viable product. While it's quite far from my original goal, I'm still determined to reach it.
+My process last week was good. I was glad to have used my mid-term goals in a real way to get back on track, prioritize, and make good progress. 
