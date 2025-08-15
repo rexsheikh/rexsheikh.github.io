@@ -90,3 +90,6 @@ The week before last I was reminded that sometimes life does not always comply n
 Last week I had to review the plan I made a few weeks ago for some actionable goals to move forward. I again separated my time between refining game parameters and then moved to some finer touches to the UI. 
 This week, and likely this weekend too, I have to play catch up to integrate each game to the backend. I have a good start on basic infrastructure connection and logic but will have to work to make sure that each game can properly update and terminate with proper scores, posts, and display. This will likely be the last big push towards a minimum viable product. While it's quite far from my original goal, I'm still determined to reach it.
 My process last week was good. I was glad to have used my mid-term goals in a real way to get back on track, prioritize, and make good progress. 
+
+## Final Post
+This past week I focused on wrapping up the course, mainly in writing the final project report. I was intentional about keeping code frozen as it seemed to working as well as it could have. Overall, I think I fell short of my original goals but was satisified in what I learned and how I went about doing so. 
